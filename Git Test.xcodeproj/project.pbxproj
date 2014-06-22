@@ -21,6 +21,7 @@
 		85A07A1E1956AAE5003382F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A07A001956AAE5003382F0 /* UIKit.framework */; };
 		85A07A261956AAE5003382F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85A07A241956AAE5003382F0 /* InfoPlist.strings */; };
 		85A07A281956AAE5003382F0 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A07A271956AAE5003382F0 /* Git_TestTests.m */; };
+		85A07A331956AED8003382F0 /* DXTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A07A321956AED8003382F0 /* DXTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		85A07A231956AAE5003382F0 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		85A07A251956AAE5003382F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85A07A271956AAE5003382F0 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		85A07A311956AED8003382F0 /* DXTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXTest.h; sourceTree = "<group>"; };
+		85A07A321956AED8003382F0 /* DXTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		85A079F01956AAE5003382F0 = {
 			isa = PBXGroup;
 			children = (
+				85A07A311956AED8003382F0 /* DXTest.h */,
+				85A07A321956AED8003382F0 /* DXTest.m */,
 				85A07A021956AAE5003382F0 /* Git Test */,
 				85A07A211956AAE5003382F0 /* Git TestTests */,
 				85A079FB1956AAE5003382F0 /* Frameworks */,
@@ -253,6 +258,7 @@
 				85A07A0D1956AAE5003382F0 /* DXAppDelegate.m in Sources */,
 				85A07A131956AAE5003382F0 /* DXViewController.m in Sources */,
 				85A07A091956AAE5003382F0 /* main.m in Sources */,
+				85A07A331956AED8003382F0 /* DXTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
